@@ -3,10 +3,12 @@ layout: page
 description: "「やれることやっていけ」"
 ---
 
-<!-- 我的笔记专区 -->
+<!-- 统一的笔记专区 -->
 <div class="custom-notes-section" style="margin: 2rem auto; padding: 1.5rem; max-width: 800px; background-color: #fff9f0; border-left: 5px solid #d4af37; border-radius: 8px; box-shadow: 0 1px 3px rgba(0,0,0,0.05);">
-    <h3 style="margin-top: 0; color: #8B6508;">📘 课程笔记的线上留存(暂无更新)</h3>
-    <p style="margin-bottom: 0.5rem; color: #4A2E1E;">水平有限, 势必有错, 如若参考还请谨慎!</p>
+    <h3 style="margin-top: 0; color: #8B6508;">📚 笔记的线上留存(水平有限, 势必有错, 如若参考还请谨慎!)</h3>
+    
+    <!-- 1. 课程笔记（固定内容，较少更新） -->
+    <h4 style="margin: 1rem 0 0.5rem; color: #b8860b;">📖 本科课程笔记</h4>
     <ul style="list-style-type: none; padding-left: 0;">
         <li style="margin-bottom: 0.75rem;">
             <a href="/mathnotes/Studynots_of_Real_Variable_Functions.pdf" target="_blank" rel="noopener noreferrer" style="font-weight: 500; text-decoration: none; border-bottom: 1px dashed #d4af37;">
@@ -20,12 +22,9 @@ description: "「やれることやっていけ」"
         </li>
         <!-- 以后你只需要复制上面 <li> 一行，修改 href 和文字即可添加更多笔记 -->
     </ul>
-</div>
 
-<!-- 我的笔记专区 -->
-<div class="custom-notes-section" style="margin: 2rem auto; padding: 1.5rem; max-width: 800px; background-color: #fff9f0; border-left: 5px solid #d4af37; border-radius: 8px; box-shadow: 0 1px 3px rgba(0,0,0,0.05);">
-    <h3 style="margin-top: 0; color: #8B6508;">📘 长期更新的学习笔记</h3>
-    <p style="margin-bottom: 0.5rem; color: #4A2E1E;">水平有限, 势必有错, 如若参考还请谨慎!</p>
+    <!-- 2. 学习笔记（经常更新，可按主题分列） -->
+    <h4 style="margin: 1rem 0 0.5rem; color: #b8860b;">✍️ 长期更新的学习笔记</h4>
     <ul style="list-style-type: none; padding-left: 0;">
         <li style="margin-bottom: 0.75rem;">
             <a href="/mathnotes/HA_Studynote.pdf" target="_blank" rel="noopener noreferrer" style="font-weight: 500; text-decoration: none; border-bottom: 1px dashed #d4af37;">
@@ -35,6 +34,7 @@ description: "「やれることやっていけ」"
         <!-- 以后你只需要复制上面 <li> 一行，修改 href 和文字即可添加更多笔记 -->
     </ul>
 </div>
+
 
 {% for post in paginator.posts %}
 <div class="post-preview">
