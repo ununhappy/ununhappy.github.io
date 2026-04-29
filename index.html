@@ -3,6 +3,21 @@ layout: page
 description: "「やれることやっていけ」"
 ---
 
+<!-- 我的笔记专区 -->
+<div class="custom-notes-section" style="margin: 2rem auto; padding: 1.5rem; max-width: 800px; background-color: #fff9f0; border-left: 5px solid #d4af37; border-radius: 8px; box-shadow: 0 1px 3px rgba(0,0,0,0.05);">
+    <h3 style="margin-top: 0; color: #8B6508;">📘 我的课程笔记（PDF在线预览）</h3>
+    <p style="margin-bottom: 0.5rem; color: #4A2E1E;">点击下方链接，在浏览器中直接阅读（无需下载）：</p>
+    <ul style="list-style-type: none; padding-left: 0;">
+        <li style="margin-bottom: 0.75rem;">
+            <a href="/mathnotes/Studynots_of_Real_Variable_Functions.pdf" target="_blank" rel="noopener noreferrer" style="font-weight: 500; text-decoration: none; border-bottom: 1px dashed #d4af37;">
+                📄 实变函数笔记
+            </a>
+        </li>
+        <!-- 以后你只需要复制上面 <li> 一行，修改 href 和文字即可添加更多笔记 -->
+    </ul>
+    <p style="font-size: 0.85rem; color: #6c757d; margin-bottom: 0;"><small>💡 小提示：建议在电脑端浏览。若无法在线查看，请右键链接选择“另存为”。</small></p>
+</div>
+
 {% for post in paginator.posts %}
 <div class="post-preview">
     <a href="{{ post.url | prepend: site.baseurl }}">
